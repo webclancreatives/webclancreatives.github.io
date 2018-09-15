@@ -1,58 +1,34 @@
-var css = document.getElementById("data");
-var color1 = document.querySelector(".color1");
-var color2 = document.querySelector(".color2");
-var fontcolor = document.querySelector(".fcolor");
-var rname = document.getElementsByClassName("rname")[0];
-var body = document.getElementsByClassName("result")[0];
-var title = document.getElementById("rtitle");
-var but = document.getElementById("button");
-var butcolr = document.getElementsByClassName("butcol")[0];
-var buthcolr = document.getElementsByClassName("buthcol")[0];
-var buttcolr = document.getElementsByClassName("buttcol")[0];
-var butthcolr = document.getElementsByClassName("butthcol")[0];
-var rcontent = document.getElementById("rcont");
-var contcol = document.getElementById("rcontcol");
-var conttcol = document.getElementById("webconttext");
-var webentry = document.getElementById("webcontentry");
+var navi = document.getElementsByClassName("nav")[0];
+var cont = document.getElementsByClassName("content");
+var butt = document.getElementsByClassName("but");
 
-function setGradient(){
-		console.log("Gradient 1 is " + color1.value);
-		console.log("Gradient 2 is " + color2.value);
-		body.style.background="linear-gradient(to right, " + color1.value + ", " + color2.value +")";
-		body.style.color = ""+fontcolor.value;
-		css.innerHTML = "liniear gradient from " + color1.value + "  to  " + color2.value;
-		title.innerHTML = " " + rname.value;
-		but.style.background=butcolr.value;
-		but.style.color=buttcolr.value;
-		but.style.transition="background 0.5s ease-in-out, color 0.5s ease-in-out";
-		rcontent.style.background=contcol.value;
-		rcont.style.color=conttcol.value;
-		rcont.innerHTML=webentry.value;
+window.onscroll = function() {
+	if (document.body.scrollTop > 140 || document.documentElement.scrollTop > 140) {
+		navi.style.background = "#eaeaea";
+		navi.style.color = "#dc162d"
+		navi.style.position = "fixed";
+		navi.style.top = "0px";
+	}
 
+	else if (document.body.scrollTop < 139 || document.documentElement.scrollTop < 139) {
+		navi.style.background = "#333333";
+		navi.style.color = "#ffd700";
+		navi.style.position = "static";
+	}
 }
 
-function buthov(){
-	but.style.background=buthcolr.value
-	but.style.color=butthcolr.value
+var slideIndexa = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndexa++;
+    if (slideIndexa > slides.length) {slideIndexa = 1} 
+    slides[slideIndexa-1].style.display = "block"; 
+    setTimeout(showSlides, 7000); // Change image every 2 seconds
 }
 
-color1.addEventListener("input", setGradient);
-
-webentry.addEventListener("input", setGradient);
-
-color2.addEventListener("input", setGradient);
-
-fontcolor.addEventListener("input", setGradient);
-
-rname.addEventListener("input", setGradient);
-
-butcolr.addEventListener("input", setGradient);
-
-but.addEventListener("mouseenter", buthov);
-but.addEventListener("mouseleave", setGradient);
-
-buttcolr.addEventListener("input", setGradient);
-
-contcol.addEventListener("input", setGradient);
-
-conttcol.addEventListener("input", setGradient);

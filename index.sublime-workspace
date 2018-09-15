@@ -1,0 +1,320 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"ro",
+				"rotateX()\ttransform"
+			],
+			[
+				"tra",
+				"transform\tproperty"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"tr",
+				"translateY()\ttransform"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"ta",
+				"transition\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"font-",
+				"font-size\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"a",
+				"auto\theight"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"bo",
+				"border-radius\tproperty"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"bor",
+				"border-bottom\tproperty"
+			],
+			[
+				"fo",
+				"font-family\tproperty"
+			],
+			[
+				"t",
+				"top\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"fle",
+				"flex-wrap\tproperty"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"border-r",
+				"border-right\tproperty"
+			],
+			[
+				"s",
+				"setGradient"
+			],
+			[
+				"i",
+				"input"
+			],
+			[
+				"ge",
+				"getElementById"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Bamboo Technologies/Webclan Creatives/index.html",
+		"/C/Users/D.S.Gangeswari/Desktop/New folder (3)/Bamboo Technologies/webclancreatives/style.css",
+		"/C/Users/D.S.Gangeswari/Desktop/New folder (3)/Bamboo Technologies/webclancreatives/typed.js",
+		"/C/Users/D.S.Gangeswari/Desktop/New folder (3)/Bamboo Technologies/webclancreatives/script.js",
+		"/C/Users/D.S.Gangeswari/Desktop/New folder (3)/Bamboo Technologies/webclancreatives/index.html",
+		"/D/Bamboo Technologies/unicorn/style.css",
+		"/C/Users/D.S.Gangeswari/Desktop/New folder (3)/Bamboo Technologies/webclancreatives/works.html",
+		"/D/Bamboo Technologies/POS/style.css",
+		"/D/Bamboo Technologies/POS/pos.html",
+		"/H/Bamboo Technologies/webclancreatives/style.css",
+		"/H/Bamboo Technologies/script.js",
+		"/H/Bamboo Technologies/works.html",
+		"/H/Bamboo Technologies/style.css",
+		"/C/Users/D.S.Gangeswari/Desktop/dont.css",
+		"/C/Users/D.S.Gangeswari/Desktop/dont open.html",
+		"/C/Users/D.S.Gangeswari/Desktop/test.html"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
