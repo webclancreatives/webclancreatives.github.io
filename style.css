@@ -3,6 +3,16 @@ body{
 	padding: 0;
 }
 
+::placeholder{
+  color: #ffffff;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  margin: 0px auto;
+}
+
 @font-face{
 	font-family: "default1";
 	src: url("fonts/TrajanPro-Bold") format("opentype");
@@ -322,7 +332,6 @@ body{
 .team{
   border: 2px solid #333333;
   margin: 40px 20px 0px 20px;
-  height: 150px;
 }
 
 .teamhead{
@@ -334,4 +343,313 @@ body{
   width: 130px;
   padding: 0px 10px 0px 10px;
 
+}
+
+.pic{
+  transition: all 5s ease-in-out;
+}
+
+.pic img{
+  width: 100%;
+  height: 250px;
+}
+
+.teamcon{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.member{
+  min-height: 250px;
+  max-height: 250px;
+  margin: 0px auto;
+  border: 2px solid #dc162d;
+  overflow: hidden;
+}
+
+.member:hover .discrip{
+  transform: translateY(-46px);
+}
+
+.member .pic img{
+  transition: all 3s linear;
+}
+
+.member:hover .pic img{
+  transform-origin: top right;
+  transform: scale(1.1);
+}
+
+
+.discrip{
+  background-color: #dc162d;
+  color: #ffd700;
+  transition: transform 0.3s ease-out;
+  width:100%;
+  padding: 5px 10px 5px 10px;
+}
+
+#touch{
+  font-family: "default2";
+  font-size: 40px;
+  color: #ffd700;
+  background-color: #dc162d;
+  margin: 15px 20px 10px 20px;
+  padding: 70px 50px 0px 70px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+#touch input{
+  width: 25%;
+  border: none;
+  outline: none;
+  background-color: rgba(0,0,0,0);
+  border-bottom: 2px solid #ffffff;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #ffd700;
+  transition: width 0.6s ease-out, border 0.6s ease-out;
+}
+
+#touch form{
+  border: 2px solid #ffffff;
+  padding: 20px 10px 20px 40px;
+  z-index: 5;
+  position: absolute;
+  width: 83%;
+  height: auto;
+}
+
+#touch input:focus{
+  width:40%;
+  border-bottom: 2px solid #ffd700;
+}
+
+#touch textarea{
+  width: 25%;
+  padding: 10px;
+  border: 2px solid #ffffff;
+  background-color: rgba(0,0,0,0);
+  font-size: 16px;
+  color: #ffd700;
+  outline: none;
+  transition: width 0.6s ease-out, border 0.6s ease-out;
+}
+
+#touch textarea:focus{
+  width:40%;
+  border: 2px solid #ffd700;
+}
+
+.footer{
+  border-top: 15px solid #555555;
+  background-color: #333333;
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffd700;
+  font-family: "default2";
+  font-size: 24px;
+  padding: 40px 50px 40px 50px;
+}
+
+.fleft{
+  padding: 25px;
+  width: 25%;
+  margin: 0px auto;
+  border-right: 3px solid #ffd700;
+}
+
+.fmid{
+  margin: auto;
+  width: 25%;
+  padding: 25px;
+}
+
+.fmid input{
+  outline: none;
+  border: none;
+  background-color: rgba(0,0,0,0);
+  border-bottom: 2px solid #ffd700;
+  background-color: rgba(0,0,0,0);
+  border-bottom: 2px solid #ffffff;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #ffd700;
+  transition: width 0.6s ease-out, border 0.6s ease-out;
+}
+
+.fmid input:focus{
+  border-bottom: 2px solid #ffd700;
+}
+
+.fright{
+  margin: 0px auto;
+  width: 25%;
+  padding: 25px;
+  border-left: 3px solid #ffd700;
+}
+
+.copy{
+  text-align: center;
+  color: #ffd700;
+  background-color: #dc162d;
+  padding: 15px;
+  font-size: 20px;
+}
+
+/*Portfolio Begins*/
+
+.banner{
+  background-image: url("img/abbak.jpg");
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+}
+
+.para{
+  position: inherit;
+  max-width: 30%;
+  height: auto;
+  margin: auto;
+  font-size: 50px;
+  font-family: "default2";
+  color: #ffffff;
+}
+
+.browsers{
+  max-width: 45%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.browsers img{
+  max-width: 90px;
+  max-height: 90px;
+  margin: 5px;
+  animation-name: banner;
+}
+
+@keyframes banner{
+  from{
+    transform: translateY(0px);
+  }
+
+  50%{
+    transform: translateY(100%);
+  }
+
+  to{
+    transform: translateY(0px);
+  }
+}
+
+#bro1{
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+}
+
+#bro2{
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.3s;
+}
+
+#bro3{
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.6s;
+}
+
+#bro4{
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.9s;
+}
+
+.editor{
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 15px;
+  border: 2px solid #333333;
+  padding: 20px;
+}
+
+.ehead{
+  height: 100px;
+  border-bottom: 3px solid #005735;
+}
+
+.editor input[type="color"]{
+  width: 28px;
+  height: 28px;
+  border: none;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance:none;
+  background-color: transparent;
+}
+
+#tit{
+  margin: auto;
+  width: auto;
+  text-align: center;
+  font-size: 28px;
+}
+
+.econtent{
+  padding: 20px 10px 20px 10px;
+  height: 700px;
+}
+
+#conbg{
+  position: relative;
+  text-align: right;
+}
+
+.econtent{
+  position: relative;
+  width: 80%;
+  margin: 0px auto;
+  border-left: 3px solid #005735;
+  border-right: 3px solid #005735;
+}
+
+#contbg{
+  text-align: right;
+}
+
+.enav{
+  background-color: #333333;
+  color:#ffd700;
+  text-align: center;
+  margin: 0px;
+  width: 100%;
+  z-index: 10;
+  transition: all 0.3s linear;
+}
+
+.enav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
+}
+
+.enav ul li{
+  padding: 15px 30px 15px 30px;
+  margin: 0px auto 0px auto;
+  transition: all 0.5s ease-out;
 }

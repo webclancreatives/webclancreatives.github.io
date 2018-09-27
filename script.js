@@ -32,3 +32,6 @@ function showSlides() {
     setTimeout(showSlides, 7000); // Change image every 2 seconds
 }
 
+particlesJS.load('touch', 'particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
