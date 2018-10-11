@@ -588,6 +588,7 @@ a{
 .ehead{
   height: 100px;
   border-bottom: 3px solid #005735;
+  transition: all 0.3s linear;
 }
 
 .editor input[type="color"]{
@@ -595,10 +596,11 @@ a{
   height: 28px;
   border: none;
   outline: none;
-  appearance: none;
+  appearance: square-button;
   -webkit-appearance: none;
   -moz-appearance:none;
   background-color: transparent;
+  transition: all 0.3s linear;
 }
 
 #tit{
@@ -606,16 +608,19 @@ a{
   width: auto;
   text-align: center;
   font-size: 28px;
+  transition: all 0.3s linear;
 }
 
 .econtent{
   padding: 20px 10px 20px 10px;
   height: 700px;
+  transition: all 0.3s linear;
 }
 
 #conbg{
   position: relative;
   text-align: right;
+  transition: all 0.3s linear;
 }
 
 .econtent{
@@ -624,10 +629,12 @@ a{
   margin: 0px auto;
   border-left: 3px solid #005735;
   border-right: 3px solid #005735;
+  transition: all 0.3s linear;
 }
 
 #contbg{
   text-align: right;
+  transition: all 0.3s linear;
 }
 
 .enav{
@@ -653,3 +660,8 @@ a{
   margin: 0px auto 0px auto;
   transition: all 0.5s ease-out;
 }
+
+#navbg{
+  margin-left: -97.5%;
+}
+
