@@ -1,3 +1,7 @@
+AOS.init({
+	duration: 1200,
+})
+
 var navi = document.getElementsByClassName("nav")[0];
 var cont = document.getElementsByClassName("content");
 var butt = document.getElementsByClassName("but");

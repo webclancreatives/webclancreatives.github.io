@@ -294,7 +294,7 @@ a{
   margin-bottom: 15px;
   background-color: #dbdcd8;
   overflow: hidden;
-  height: 150px;
+  height: 200px;
 }
 
 .cardhead{
@@ -303,10 +303,11 @@ a{
   height: 100%;
   overflow: hidden;
   margin: auto 0px;
-  transition: all 0.4s ease-out;
+  transition: all 0.4s ease-in-out;
   font-family: "default2";
   font-size: 36px;
   font-weight: bolder;
+  text-align: center;
   color: #ffd700;
 }
 
@@ -315,18 +316,27 @@ a{
 }
 
 .pcard:hover .cardhead{
-  height: 0px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.pcard:hover .ptit img{
+  height: 36px;
+  width: 36px;
+  left: 0;
+  position: relative;
 }
 
 .ptit{
   position: relative;
   top: 10%;
-  text-align: center;
+  transition: all 0.4s ease-in-out;
 }
 
 .ptit img{
   width: 64px;
   height: 64px;
+  transition: all 0.4s ease-in-out;
 }
 
 .team{
