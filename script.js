@@ -21,19 +21,46 @@ window.onscroll = function() {
 	}
 }
 
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+
+function plusSlides(n) {
+  showSlides(slideIndexa += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndexa = n);
+}
+
+function showSlides(n) {
+
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 7000);
+}
+
 var slideIndexa = 0;
 showSlides();
 
 function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none"; 
     }
     slideIndexa++;
     if (slideIndexa > slides.length) {slideIndexa = 1} 
-    slides[slideIndexa-1].style.display = "block"; 
-    setTimeout(showSlides, 7000); // Change image every 2 seconds
+    slides[slideIndexa-1].style.display = "block";
+
+    setTimeout(showSlides, 7000); 
 }
 
 particlesJS.load('touch', 'particles.json', function() {
