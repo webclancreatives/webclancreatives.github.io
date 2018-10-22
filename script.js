@@ -39,3 +39,10 @@ function showSlides() {
 particlesJS.load('touch', 'particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
+
+function mobnav() {
+	var mnavi = document.getElementById("mbut");
+	var mobnavi = document.getElementById("mnav");
+
+	
+}
