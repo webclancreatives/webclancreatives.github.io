@@ -41,8 +41,7 @@ particlesJS.load('touch', 'particles.json', function() {
 });
 
 function mobnav() {
-	var mnavi = document.getElementById("mbut");
 	var mobnavi = document.getElementById("mnav");
 
-	
+	mobnavi.style.display="block";
 }
