@@ -444,7 +444,7 @@ button {
 }
 
 .member:hover .pic img{
-  transform-origin: top right;
+  transform-origin: top left;
   transform: scale(1.1);
 }
 
