@@ -6,6 +6,9 @@ var navi = document.getElementsByClassName("nav")[0];
 var cont = document.getElementsByClassName("content");
 var butt = document.getElementsByClassName("but");
 
+var mobnavi = document.getElementById("mnav");
+var clsbtn = document.getElementsByClassName("closebtn")[0];
+
 window.onscroll = function() {
 	if (document.body.scrollTop > 140 || document.documentElement.scrollTop > 140) {
 		navi.style.background = "#eaeaea";
@@ -68,7 +71,13 @@ particlesJS.load('touch', 'particles.json', function() {
 });
 
 function mobnav() {
-	var mobnavi = document.getElementById("mnav");
-
 	mobnavi.style.display="block";
+	console.log("Gomma");
 }
+
+function close() {
+	mobnavi.style.display="none";
+}
+
+clsbtn.addEventListener("click", close);
+
