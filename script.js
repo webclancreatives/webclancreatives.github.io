@@ -71,14 +71,14 @@ particlesJS.load('touch', 'particles.json', function() {
 });
 
 function mobnav() {
-	mobnavi.style.display="block";
-	console.log("Gomma");
-}
+	mobnavi.style.width="100%";
 
-function close() {
-	mobnavi.style.display="none";
-	console.log("gommale");
+	function close() {
+	mobnavi.style.width="0%";
 }
 
 clsbtn.addEventListener("click", close);
+}
+
+
 

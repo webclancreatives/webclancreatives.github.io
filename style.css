@@ -111,12 +111,12 @@ button {
 }
 
 #mnav{
-  display: none;
+  overflow: hidden;
   position: fixed; 
   z-index: 10;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 0%;
   height: 100%;
   font-size: 24px;
   background-color: rgba(0,0,0,0.8);
