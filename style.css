@@ -97,15 +97,16 @@ button {
   right: 45px;
   text-align: right;
   font-size: 60pt;
+  cursor: pointer;
 }
 
 @keyframes fade{
   from{
-    opacity: 0;
+    width: 0;
   }
 
   to{
-    opacity: 1;
+    width: 100%;
   }
 }
 
@@ -600,7 +601,6 @@ button {
   max-width: 90px;
   max-height: 90px;
   margin: 5px;
-  animation-name: banner;
 }
 
 @keyframes banner{
@@ -618,6 +618,7 @@ button {
 }
 
 #bro1{
+  animation-name: banner;
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -625,6 +626,7 @@ button {
 }
 
 #bro2{
+  animation-name: banner;
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -632,6 +634,7 @@ button {
 }
 
 #bro3{
+  animation-name: banner;
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -639,6 +642,7 @@ button {
 }
 
 #bro4{
+  animation-name: banner;
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;

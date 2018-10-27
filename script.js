@@ -77,6 +77,7 @@ function mobnav() {
 
 function close() {
 	mobnavi.style.display="none";
+	console.log("gommale");
 }
 
 clsbtn.addEventListener("click", close);
