@@ -229,6 +229,24 @@ button {
 	padding-right: 10px;
 }
 
+.socnet{
+  display: inline-block;
+  position: absolute;
+  top: 512px;
+  padding: 5px;
+  background-color: #333333;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  z-index: 10;
+}
+
+.socnet i{
+  color: #ffd700;
+  margin: 5px;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -796,6 +814,15 @@ button {
 
   .container{
     min-height: 336px;
+  }
+
+  .pcard{
+    min-width: 350px;
+  }
+
+  .member{
+    min-width: 200px;
+    max-width: 200px;
   }
 
 
