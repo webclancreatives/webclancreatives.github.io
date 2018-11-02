@@ -609,10 +609,10 @@ button {
 
 .browsers{
   max-width: 45%;
-  height: 400px;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
+  margin-top: 10px;
 }
 
 .browsers img{
@@ -627,7 +627,7 @@ button {
   }
 
   50%{
-    transform: translateY(100%);
+    transform: translateY(250px);
   }
 
   to{
@@ -637,34 +637,30 @@ button {
 
 #bro1{
   animation-name: banner;
-  animation-duration: 1s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
   animation-delay: 0s;
 }
 
 #bro2{
   animation-name: banner;
-  animation-duration: 1s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-delay: 0.3s;
+  animation-delay: 0.5s;
 }
 
 #bro3{
   animation-name: banner;
-  animation-duration: 1s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-delay: 0.6s;
+  animation-delay: 1s;
 }
 
 #bro4{
   animation-name: banner;
-  animation-duration: 1s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-delay: 0.9s;
+  animation-delay: 1.5s;
 }
 
 .editor{
@@ -755,6 +751,89 @@ button {
   margin-left: -97.5%;
 }
 
+/*Contact Page Begins*/
+
+.conout{
+  margin-top: 25px; 
+  margin-bottom: 25px;
+}
+
+.contact_form{
+  position: absolute;
+  background-color: rgba(92,09,49,0.9);
+  z-index: 5;
+  top: 250px;
+  right: 50px;
+  margin: 50px;
+  padding: 20px;
+  width: 30%;
+}
+
+.contact_form form{
+  border: 3px solid #ffffff;
+  margin: 10px;
+}
+
+.contact_form .title{
+  color: #fff;
+  font-style: "defualt2";
+  font-size: 36px;
+  background-color: #6b2547;
+  padding: 5px 15px 5px 15px;
+  display: inline-block;
+  margin: -50px 0px 10px 20px;
+}
+
+.contact_form input{
+  color: #ffffff;
+  height: 25px;
+  padding: 10px;
+  width: 70%;
+  margin: 10px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgba(0,0,0,0);
+}
+
+.contact_form input[type="submit"]{
+  width: 35%;
+  height: 50px;
+  transition: all 0.4s ease-in-out;
+}
+
+.contact_form input[type="submit"]:hover{
+  height: 60px;
+}
+
+.contact_form input[type="reset"]{
+  width: 35%;
+  height: 50px;
+  transition: all 0.4s ease-in-out;
+}
+
+.contact_form input[type="reset"]:hover{
+  height: 60px;
+}
+
+.contact_form textarea{
+  color: #ffffff;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgba(0,0,0,0);
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  height: 150px;
+}
+
+#map{
+  width: 100%;
+  height: 770px;
+}
+
 
 
 
@@ -823,6 +902,13 @@ button {
   .member{
     min-width: 200px;
     max-width: 200px;
+  }
+
+  .contact_form{
+    margin: 50px;
+    position: relative;
+    width: 100%;
+    top: 0;
   }
 
 
