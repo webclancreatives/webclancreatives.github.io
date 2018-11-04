@@ -1,15 +1,16 @@
-	var hedbg = document.getElementById("headbg");
-	var htex = document.getElementById("headtext");
-	var head = document.getElementsByClassName("ehead")[0];
-	var content = document.getElementsByClassName("econtent")[0];
-	var conbg = document.getElementById("contbg");
-	var ctex = document.getElementById("conttext");
-	var vcol = document.getElementById("navcol");
-	var nav = document.getElementsByClassName("enav")[0];
-	var navbg = document.getElementById("navbg");
-	var fot = document.querySelector(".footer");
+	
+const trailWeb = () => {
+	const hedbg = document.getElementById("headbg");
+	const htex = document.getElementById("headtext");
+	const head = document.getElementsByClassName("ehead")[0];
+	const content = document.getElementsByClassName("econtent")[0];
+	const conbg = document.getElementById("contbg");
+	const ctex = document.getElementById("conttext");
+	const vcol = document.getElementById("navcol");
+	const nav = document.getElementsByClassName("enav")[0];
+	const navbg = document.getElementById("navbg");
+	const fot = document.querySelector(".footer");
 
-function trailWeb() {	
 	head.style.background = hedbg.value;
 	console.log("head bg :" + hedbg.value);
 	head.style.color = htex.value;
@@ -25,14 +26,14 @@ function trailWeb() {
 	content.style.background = conbg.value;
 	console.log("Content Bg:" + conbg.value);
 
+	hedbg.addEventListener("input",trailWeb);
+	htex.addEventListener("input", trailWeb);
+	conbg.addEventListener("input", trailWeb);
+	ctex.addEventListener("input", trailWeb);
+	navcol.addEventListener("input", trailWeb);
+	navbg.addEventListener("input", trailWeb);
+
 
 }
 
 trailWeb();
-
-hedbg.addEventListener("input",trailWeb);
-htex.addEventListener("input", trailWeb);
-conbg.addEventListener("input", trailWeb);
-ctex.addEventListener("input", trailWeb);
-navcol.addEventListener("input", trailWeb);
-navbg.addEventListener("input", trailWeb);
